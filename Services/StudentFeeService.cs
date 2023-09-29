@@ -45,7 +45,7 @@ public class StudentFeeService
 
     private bool IsLate(DateTime dueDate)
     {
-        const int lateDayThreshold = 29;
+        const int lateDayThreshold = 10;
         return dueDate.Day > lateDayThreshold;
     }
 
